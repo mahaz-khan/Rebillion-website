@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { useRouter } from 'next/router';
+import {useRouter} from 'next/router';
 import Plusminus from './Plusminus'
 import Slider from '../components/Slider'
 import payicon from "../../public/Assets/payicon.png"
@@ -10,7 +10,8 @@ import amex from "../../public/Assets/amex.png"
 import jcb from "../../public/Assets/jcb.png"
 import odd from "../../public/Assets/odd.png"
 import focalperson from "../../public/Assets/focalperson.png"
-export default function upsellprice() {
+export default function Upsellprice() {
+
 
 
   const router = useRouter();
