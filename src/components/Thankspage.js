@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import thanksthumb from "/public/Assets/Thanksthumb.png";
+import thanksthumb from "/public/Assets/thanksthumb.png";
 import Nikesneakers from './Nikesneakers';
 
 export default function Thankspage() {
