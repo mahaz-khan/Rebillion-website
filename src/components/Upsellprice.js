@@ -3,13 +3,13 @@ import Image from 'next/image'
 import {useRouter} from 'next/router';
 import Plusminus from './Plusminus'
 import Slider from '../components/Slider'
-import payicon from "../../public/Assets/payicon.png"
-import visaicon from "../../public/Assets/visaicon.png"
-import Paypal from "../../public/Assets/Paypal.svg"
-import amex from "../../public/Assets/amex.png"
-import jcb from "../../public/Assets/jcb.png"
-import odd from "../../public/Assets/odd.png"
-import focalperson from "../../public/Assets/focalperson.png"
+import payicon from "/public/Assets/payicon.png"
+import visaicon from "/public/Assets/visaicon.png"
+import Paypal from "/public/Assets/Paypal.svg"
+import amex from "/public/Assets/amex.png"
+import jcb from "/public/Assets/jcb.png"
+import odd from "/public/Assets/odd.png"
+import focalperson from "/public/Assets/focalperson.png"
 export default function Upsellprice() {
 
 
@@ -28,7 +28,7 @@ export default function Upsellprice() {
     <div className='max-w-[1400px] mx-auto'>
       <div className='flex flex-col items-center   pt-10 '>
         <Slider />
-        <Plusminus />
+        <Plusminus/>
         <div className='max-w-[50%] text-[#4B4E68] mt-5 '>Ornare rhoncus nunc ut felis. Faucibus dolor at ultrices tincidunt. Pulvinar sed justo et viverra pellentesque.<br></br><br></br>
           Mauris augue nulla proin vel a. Facilisis fringilla molestie dignissim elit orci malesuada. Lorem sit sagittis vitae nulla id. Mauris ipsum sed sed faucibus. Nulla amet metus gravida orci faucibus nisl eros arcu lorem. Nullam ornare molestie nam id gravida volutpat bibendum sem feugiat. Neque vulputate in et maecenas porta mi tellus. In massa porttitor urna quis volutpat at.
         </div>

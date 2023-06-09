@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Slider from "react-slider";
 import Image from "next/image";
-import redsneakers from "../../public/Assets/figmaredshoe.png";
-import greensneakers from "../../public/Assets/figmagreenshoe.png";
-import orangesneakers from "../../public/Assets/figmaorangeshoe.png";
+import redsneakers from "/public/Assets/figmaredshoe.png";
+import greensneakers from "/public/Assets/figmagreenshoe.png";
+import orangesneakers from "/public/Assets/figmaorangeshoe.png";
 
 const SliderDemo = () => {
   const [activeSlide, setActiveSlide] = useState(0);

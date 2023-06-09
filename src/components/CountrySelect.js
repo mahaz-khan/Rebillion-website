@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Select from 'react-select';
-import Image from 'next/image';
-import Country from '../../public/Assets/Country.png';
+
 
 const CountrySelect = ({ handleCountryChange }) => {
   const [countryOptions, setCountryOptions] = useState([]);
